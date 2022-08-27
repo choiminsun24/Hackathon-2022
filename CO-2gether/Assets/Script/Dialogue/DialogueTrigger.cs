@@ -7,18 +7,19 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dia;
     public TextMeshProUGUI Text;
-    public GameObject Score;
-    Score S;
+    private GameObject Score;
+    Calculate S;
 
     public void Trigger()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dia);
-        Text.text = "점수: " + S.GetScore();
+        Text.text = "점수: " + S.getScore();
     }
 
     void Start()
     {
-        S = Score.GetComponent<Score>();
+        Score = GameObject.FindGameObjectWithTag("Score");
+        S = Score.GetComponent<Calculate>();
 
         Invoke("Trigger", 1f);
     }

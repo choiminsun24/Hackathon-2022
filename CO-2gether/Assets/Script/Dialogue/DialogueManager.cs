@@ -6,6 +6,8 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public string Next;
+
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public Queue<string> sentences;
@@ -55,7 +57,8 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        FindObjectOfType<Fade>().Move_Scene("Start");//AirConditional
+
+        FindObjectOfType<Fade>().Move_Scene(Next);//AirConditional
     }
 
 
