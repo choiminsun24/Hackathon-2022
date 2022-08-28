@@ -634,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[0]
-      value: "\uC544 \uC774\uC81C \uC880 \uC0B4\uACA0\uB2E4..."
+      value: "\uC544, \uC774\uC81C \uC880 \uC0B4\uACA0\uB2E4..."
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[1]
@@ -649,7 +649,7 @@ PrefabInstance:
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[3]
       value: "\uC5EC\uAE30\uC11C \uB354 \uB354\uC6CC\uC9C0\uB294 \uAC74 \uC880 \uB054\uCC0D\uD558\uAE34
-        \uD558\uC9C0\uB9CC, \uC0C8\uC0BC\uC2A4\uB7EC\uC6B4\uAC78"
+        \uD558\uC9C0\uB9CC, \uC0C8\uC0BC\uC2A4\uB7EC\uC6B4 \uAC78!"
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[4]
