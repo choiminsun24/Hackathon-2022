@@ -57,7 +57,6 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-
         FindObjectOfType<Fade>().Move_Scene(Next);//AirConditional
     }
 
