@@ -10,11 +10,11 @@ public class GameManager : MonoBehaviour
     public Text waterTxt;
     public Text lifeTxt;
     public Text needWaterTxt;
-    public GameObject gameOverTxt;
-    public GameObject gameClearTxt;
     public GameObject stageStartTxt;
     public GameObject stageClearTxt;
     public GameObject stageFailTxt;
+    public GameObject gameClearPanel;
+    public GameObject gameOverPanel;
     public GameObject waterSize;
     public GameObject clickBtn;
     public GameObject removeBox;
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public int water;
     public int waterHeight;
     public int clearCnt;
+    public int gameClearScore;
    
     private int life;
 
@@ -43,7 +44,7 @@ public class GameManager : MonoBehaviour
         water = Random.Range(4, 9);
         needWaterTxt.text = water.ToString();
         stageStartTxt.SetActive(true);
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(1f);
         stageStartTxt.SetActive(false);
         isPlaying = true;
     }
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
         isPlaying = false;
         lifeTxt.text = life.ToString();
         removeBox.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
         text.SetActive(true);
         yield return new WaitForSeconds(1f);
         text.SetActive(false);
@@ -64,7 +66,7 @@ public class GameManager : MonoBehaviour
     private void LateUpdate() 
     {
 
-        if ((int)(waterSize.transform.localScale.y * 10) <= water)
+        if ((int)(waterSize.transform.localScale.y * 10) <= water + 1)
         {
             waterTxt.text = "water: " + ((int)(waterSize.transform.localScale.y * 10)).ToString();
         }
@@ -77,7 +79,7 @@ public class GameManager : MonoBehaviour
             }
             else 
             {
-                Game(gameOverTxt);
+                Game(gameOverPanel);
             }
         }
     }
@@ -89,9 +91,10 @@ public class GameManager : MonoBehaviour
             clearCnt += 1;
             if (clearCnt == 4)
             {
-                Game(gameClearTxt);
                 plant.GetComponent<SpriteRenderer>().sprite = plantComplete;
                 plant.transform.localScale = new Vector3((float)0.6, (float)0.6, (float)0.6);
+                Game(gameClearPanel);
+                gameClearScore = 10;
             }
             else 
             {
@@ -107,18 +110,19 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Game(gameOverTxt);
+                Game(gameOverPanel);
             }
         }
     
     }
 
-    public void Game(GameObject text) 
+    public void Game(GameObject panel)
     {
         isPlaying = false;
-        text.SetActive(true);
+        panel.SetActive(true);
         removeBox.SetActive(true);
         waterTxt.text = "water: 0";
+        lifeTxt.text = life.ToString();
         waterSize.transform.localScale = new Vector3(objectScale.x, 0, objectScale.z);
     }
 
