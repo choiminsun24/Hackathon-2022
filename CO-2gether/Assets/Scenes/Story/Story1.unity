@@ -811,7 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55de3281d8beb2244855a91a7910398c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: Story2
+  Next: 1Aircon
   nameText: {fileID: 2092214763}
   dialogueText: {fileID: 1308396741}
   player: {fileID: 1070873765}

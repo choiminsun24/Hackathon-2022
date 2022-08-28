@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382706680719, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: Next
-      value: 4Riding
+      value: 5Riding
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: Text
