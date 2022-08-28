@@ -723,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 69821764}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[0]
@@ -733,34 +733,38 @@ PrefabInstance:
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[1]
       value: "\uC7A0\uB3C4 \uB2E4 \uAE68\uBC84\uB838\uC73C\uB2C8 \uC624\uB79C\uB9CC\uC5D0
-        \uC77C\uCC0D \uC678\uCD9C\uC774\uB098 \uD574\uBCFC\uAE4C?"
+        \uC544\uCE68\uC77C\uCC0D \uC678\uCD9C\uC774\uB098 \uD574\uBCFC\uAE4C?"
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[2]
+      value: "\uC0B4 \uAC83\uB3C4 \uC788\uC73C\uB2C8\uAE4C \uC2DC\uC7A5\uB3C4 \uAC00"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: dia.sentences.Array.data[3]
       value: "\uC544, \uB098\uAC00\uB294 \uAE38\uC5D0 \uC313\uC544\uB1A8\uB358 \uC7AC\uD65C\uC6A9
         \uC4F0\uB808\uAE30\uB3C4 \uBC84\uB824\uC57C\uACA0\uB2E4."
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
-      propertyPath: dia.sentences.Array.data[3]
+      propertyPath: dia.sentences.Array.data[4]
       value: "\uB044\uC751..."
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
-      propertyPath: dia.sentences.Array.data[4]
+      propertyPath: dia.sentences.Array.data[5]
       value: "\uC65C \uC774\uB807\uAC8C \uB9CE\uC9C0? \uB0B4\uAC00 \uC774\uB807\uAC8C
         \uB9CE\uC774 \uC2DC\uCF1C\uBA39\uC5C8\uB098?"
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
-      propertyPath: dia.sentences.Array.data[5]
+      propertyPath: dia.sentences.Array.data[6]
       value: "...\uC77C\uD68C\uC6A9\uD488 \uC798 \uC548 \uC4F4\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB294\uB370,
         \uC774\uB807\uAC8C \uBCF4\uB2C8 \uC880 \uB9CE\uB124."
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
-      propertyPath: dia.sentences.Array.data[6]
+      propertyPath: dia.sentences.Array.data[7]
       value: "\uC55E\uC73C\uB85C\uB294 \uC880 \uC904\uC5EC\uC57C\uC9C0. \uBC30\uB2EC\uC74C\uC2DD\uB3C4
         \uC904\uC774\uACE0!"
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
-      propertyPath: dia.sentences.Array.data[7]
+      propertyPath: dia.sentences.Array.data[8]
       value: "\uADF8\uB7F0\uB370... \uC774\uAC74 \uC77C\uBC18 \uC4F0\uB808\uAE30\uC57C?
         \uC7AC\uD65C\uC6A9 \uC4F0\uB808\uAE30\uC57C?"
       objectReference: {fileID: 0}
