@@ -9,18 +9,48 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 5c6ac1be4fa6bd940ab67f841ca4977e
+  - enabled: 1
     path: Assets/Scenes/Story/Story1.unity
     guid: 133b68dd2929e7343abb4f29452f0584
   - enabled: 1
     path: Assets/Scenes/Story/Story2.unity
     guid: 01b75d86e05186a4090528a58028e1cd
   - enabled: 1
-    path: Assets/Scenes/Story/Story4.unity
-    guid: 9b68ed49e969ffc46b06b4db27288699
+    path: Assets/Scenes/Story/Story3.unity
+    guid: 1dcaa4fc8f1d90e4497a4340409f5e0e
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
-    guid: 5c6ac1be4fa6bd940ab67f841ca4977e
+    path: Assets/Scenes/Story/Story4.unity
+    guid: 4dccb34c51d170c4ba93819e2b47e1d8
+  - enabled: 1
+    path: Assets/Scenes/Story/Story5.unity
+    guid: af931552ea692464fa0f2c10247fa313
+  - enabled: 1
+    path: Assets/Scenes/Story/Story6.unity
+    guid: b4bfb3a5c04ff4f4d80103d24c5dca7e
+  - enabled: 1
+    path: Assets/Scenes/Story/Story7.unity
+    guid: 3c228f006eb3d904caba4842e7b8e68a
+  - enabled: 1
+    path: Assets/Scenes/1AirCon.unity
+    guid: 63d040d2b5b43bf4bbd93017f6ebc413
   - enabled: 1
     path: Assets/Scenes/2WaterPlant.unity
     guid: 005d2d46d6d5dcd4f83abf0f1548df9f
+  - enabled: 1
+    path: Assets/Scenes/3Concent.unity
+    guid: 82836c23e8b39454595c216356cbb07d
+  - enabled: 1
+    path: Assets/Scenes/Recycle.unity
+    guid: e0fb749c70f46dd44a549332f6953dbf
+  - enabled: 1
+    path: Assets/Scenes/5Riding.unity
+    guid: fcdfe923f2c55df41969944f0521c6dc
+  - enabled: 1
+    path: Assets/Scenes/6Market.unity
+    guid: 9d29e39ebe00dda41ad80793866061e5
+  - enabled: 1
+    path: Assets/Scenes/7Ending.unity
+    guid: 267c932b3cbef6348b483ec77280a703
   m_configObjects: {}
