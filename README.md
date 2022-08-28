@@ -80,8 +80,7 @@
 ---
 
 ## 🕹️ 게임 시작 화면
-
-![시작화면.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eca61e2b-28c4-4b3c-80bc-1bbbfd194932/%EC%8B%9C%EC%9E%91%ED%99%94%EB%A9%B4.jpg)
+![start](https://user-images.githubusercontent.com/93965468/187069780-37c1814d-d591-44a7-9909-b40901b0c8a1.PNG)
 
 ## 🕹️ 게임 진행 화면
 
