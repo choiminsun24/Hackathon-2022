@@ -15,7 +15,7 @@ public class DataManager : MonoBehaviour
 
     void Start()
     {
-        path = Path.Combine(Application.streamingAssetsPath + "/Json/score.json"); //경로 찾기
+        path = Path.Combine(Application.streamingAssetsPath + "/score.json"); //경로 찾기
         JsonLoad();
     }
 
@@ -25,8 +25,7 @@ public class DataManager : MonoBehaviour
 
         if (!File.Exists(path)) //파일 없으면 만들기
         {
-
-            Debug.Log("");
+            JsonSave();
         }
         else
         {
