@@ -67,8 +67,34 @@
 # 🌎 페이지 구성(시나리오)
 
 ## 🕹️ 게임 시작 화면
-![start](https://user-images.githubusercontent.com/93965468/187069780-37c1814d-d591-44a7-9909-b40901b0c8a1.PNG)
+![시작화면](https://user-images.githubusercontent.com/102416954/187072284-5e74e26c-8f17-485d-bb30-fbf982c64d3b.jpg)
+
 
 ## 🕹️ 게임 진행 화면
 
+<주인공 ‘나송’ 대화창>
+
+![대화](https://user-images.githubusercontent.com/102416954/187075308-5a01bb72-a8cf-4cef-b447-eb6125a0fcec.png)
+
+
+<반려 식물 물 주기 게임>
+![게임화면](https://user-images.githubusercontent.com/102416954/187075304-14d7fa16-0907-486a-981f-fdf8165704bf.png)
+
+
+<사용하지 않는 플러그 뽑기 게임>
+![뽑기](https://user-images.githubusercontent.com/102416954/187075297-90133bd0-a77d-4c31-adab-2a4b312a3600.png)
+
+
+<분리수거 퀴즈 게임>
+
+![게임화면3](https://user-images.githubusercontent.com/102416954/187075293-0a6bacad-a7ee-4ccf-a932-363a39e8e048.png)
+
+
+<친환경 상품 고르기 게임>
+
+![게임화면2](https://user-images.githubusercontent.com/102416954/187075285-9a20678b-cc23-448c-86da-2418d956e007.png)
+
+
+
 ## 🕹️ 게임 종료 화면
+![게임 종료](https://user-images.githubusercontent.com/102416954/187075282-25da928a-dab9-4593-963b-d09993b8b636.png)

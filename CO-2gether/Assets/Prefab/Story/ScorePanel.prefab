@@ -69,7 +69,7 @@ MonoBehaviour:
   m_text: " \uC810\uC218: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 563bed621e7c54a43bbdf05271091578, type: 2}
-  m_sharedMaterial: {fileID: 41374896600681012, guid: 563bed621e7c54a43bbdf05271091578, type: 2}
+  m_sharedMaterial: {fileID: 7897653989559171197, guid: 563bed621e7c54a43bbdf05271091578, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -38,7 +38,7 @@ public class tooth : MonoBehaviour
             Destroy(this.gameObject);
         else if (collision.CompareTag("foodTrash")|| collision.CompareTag("plasticTrash")|| collision.CompareTag("paperTrash"))
         {
-            this.gameDirector.damage(gameMain.playerLife);
+            this.gameDirector.damage();
             Destroy(this.gameObject);
         }
     }

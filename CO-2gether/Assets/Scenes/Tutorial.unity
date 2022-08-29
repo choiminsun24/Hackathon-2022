@@ -516,6 +516,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7502882381225408236, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 563bed621e7c54a43bbdf05271091578, type: 2}
+    - target: {fileID: 7502882381225408236, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502882381225408236, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7897653989559171197, guid: 563bed621e7c54a43bbdf05271091578, type: 2}
     - target: {fileID: 7502882381687267885, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: m_Name
       value: Dialog

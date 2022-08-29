@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/3Concent.unity
     guid: 82836c23e8b39454595c216356cbb07d
   - enabled: 1
-    path: Assets/Scenes/Recycle.unity
+    path: Assets/Scenes/4Recycle.unity
     guid: e0fb749c70f46dd44a549332f6953dbf
   - enabled: 1
     path: Assets/Scenes/5Riding.unity

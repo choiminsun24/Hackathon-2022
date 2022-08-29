@@ -12,15 +12,19 @@ public class Ending : MonoBehaviour
 
     private TMP_Text ShowScore;
 
+    public GameObject S;
     Calculate Count;
     public int score;    // 엔딩 시 최종 점수 score에 저장!!!
 
     public void Start()
     {
-        Count = GetComponent<Calculate>();
+        Count = S.GetComponent<Calculate>();
         EndingPopup.SetActive(false);
         EndButton.SetActive(false);
         ReplayButton.SetActive(false);
+
+        score = Count.Score;
+        Debug.Log(score);
 
         if (score < 50)
         {

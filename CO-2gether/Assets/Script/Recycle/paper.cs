@@ -38,7 +38,7 @@ public class paper : MonoBehaviour
             Destroy(this.gameObject);
         else if (collision.CompareTag("foodTrash") || collision.CompareTag("GeneralTrash") || collision.CompareTag("plasticTrash"))
         {
-            this.gameDirector.damage(gameMain.playerLife);
+            this.gameDirector.damage();
             Destroy(this.gameObject);
         }
     }

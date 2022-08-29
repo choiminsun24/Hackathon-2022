@@ -94,7 +94,7 @@ public class GameManager : MonoBehaviour
                 plant.GetComponent<SpriteRenderer>().sprite = plantComplete;
                 plant.transform.localScale = new Vector3((float)0.6, (float)0.6, (float)0.6);
                 Game(gameClearPanel);
-                gameClearScore = 10;
+                gameClearScore += 20;
             }
             else 
             {
