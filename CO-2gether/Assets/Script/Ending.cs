@@ -14,7 +14,6 @@ public class Ending : MonoBehaviour
     //점수 저장
     private GameObject S;
     Calculate Count;
-    int score;
 
     public void Start()
     {
@@ -25,16 +24,18 @@ public class Ending : MonoBehaviour
         S = GameObject.FindGameObjectWithTag("Score");
         Count = S.GetComponent<Calculate>();
 
-        score = Count.getScore_int();
-        Debug.Log(score);
+        Invoke("Write_Score", 1f);
+    }
 
-        if (score < 50)
+    public void Write_Score()
+    {
+        if (Count.getScore_int() < 50)
         {
             Elephant.SetActive(false);
             Dog.SetActive(false);
         }
 
-        ShowScore.text = "당신의 점수는 " + score.ToString() + "점입니다.";
+        ShowScore.text = "당신의 점수는 " + Count.getScore() + "점 입니다.";
     }
 
     public void PressButton()
