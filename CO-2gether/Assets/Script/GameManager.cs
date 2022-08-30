@@ -96,7 +96,7 @@ public class GameManager : MonoBehaviour
             {
                 plant.GetComponent<SpriteRenderer>().sprite = plantComplete;
                 plant.transform.localScale = new Vector3((float)0.6, (float)0.6, (float)0.6);
-                Game(gameClearPanel);
+                StartCoroutine(Game(gameClearPanel));
                 gameClearScore += 20;
             }
             else 
@@ -122,13 +122,13 @@ public class GameManager : MonoBehaviour
     IEnumerator Game(GameObject panel)
     {
         clickBtn.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
         isPlaying = false;
-        panel.SetActive(true);
         removeBox.SetActive(true);
         waterTxt.text = "water: 0";
         lifeTxt.text = life.ToString();
         waterSize.transform.localScale = new Vector3(objectScale.x, 0, objectScale.z);
+        yield return new WaitForSeconds(0.5f);
+        panel.SetActive(true);
     }
 
 }
