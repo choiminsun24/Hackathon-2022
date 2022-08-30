@@ -626,7 +626,7 @@ PrefabInstance:
       objectReference: {fileID: 1896853415}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
       propertyPath: dia.sentences.Array.data[0]
@@ -646,6 +646,14 @@ PrefabInstance:
       propertyPath: dia.sentences.Array.data[3]
       value: "(\uAC15\uC758\uC2E4 \uC5D0\uC5B4\uCEE8 \uD2BC \uAC70 \uB9DE\uC544?
         \uB354\uC6CC\uC11C \uC9D1\uC911\uC544 \uC548 \uB418\uB124..)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: dia.sentences.Array.data[4]
+      value: "(\uC544 \uC65C \uC810\uC810 \uB354\uC6CC\uC9C0\uC9C0...??)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502882382807419953, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+      propertyPath: dia.sentences.Array.data[5]
+      value: "(\uC774\uAC8C... \uC9C0\uAD6C \uC628\uB09C....)"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c498012358dfd4e409b14c88b269387f, type: 3}

@@ -8,22 +8,24 @@ using TMPro;
 public class Ending : MonoBehaviour
 {
     public GameObject Elephant, Dog, XButton, EndingPopup, EndButton, ReplayButton;
-    public GameObject Scorebag;
 
-    private TMP_Text ShowScore;
+    public TextMeshProUGUI ShowScore;
 
-    public GameObject S;
+    //점수 저장
+    private GameObject S;
     Calculate Count;
-    public int score;    // 엔딩 시 최종 점수 score에 저장!!!
+    int score;
 
     public void Start()
     {
-        Count = S.GetComponent<Calculate>();
         EndingPopup.SetActive(false);
         EndButton.SetActive(false);
         ReplayButton.SetActive(false);
 
-        score = Count.Score;
+        S = GameObject.FindGameObjectWithTag("Score");
+        Count = S.GetComponent<Calculate>();
+
+        score = Count.getScore_int();
         Debug.Log(score);
 
         if (score < 50)
@@ -32,13 +34,12 @@ public class Ending : MonoBehaviour
             Dog.SetActive(false);
         }
 
-        ShowScore = Scorebag.GetComponent<TMP_Text>();
-        ShowScore.text = "당신의 점수는 " + Count.getScore() + "점입니다.";
+        ShowScore.text = "당신의 점수는 " + score.ToString() + "점입니다.";
     }
 
     public void PressButton()
     {
-        Scorebag.SetActive(false);
+        ShowScore.gameObject.SetActive(false);
         XButton.SetActive(false);
 
         EndingPopup.SetActive(true);

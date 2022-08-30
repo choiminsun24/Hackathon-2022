@@ -34,7 +34,7 @@ public class DataManager : MonoBehaviour
 
             if (data != null) //값이 있으면 Calculate로 가져오기.
             {
-                Calculate.instance.Score = data.Score;
+                Calculate.instance.setScore(data.Score);
             }
         }
     }
@@ -42,7 +42,7 @@ public class DataManager : MonoBehaviour
     public void JsonSave()
     {
         DataSave data = new DataSave();
-        data.Score = Calculate.instance.Score;
+        Calculate.instance.setScore(data.Score);
 
         string json = JsonUtility.ToJson(data, true); //Calculate에서 가져온 정보를 json으로 바꿈
 

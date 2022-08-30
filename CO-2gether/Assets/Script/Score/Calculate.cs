@@ -6,7 +6,7 @@ public class Calculate : MonoBehaviour
 {
     public static Calculate instance;
 
-    public int Score;
+    private int Score;
     DataManager DM;
 
     // Start is called before the first frame update
@@ -19,6 +19,16 @@ public class Calculate : MonoBehaviour
     public string getScore()
     {
         return Score.ToString();
+    }
+
+    public int getScore_int()
+    {
+        return Score;
+    }
+
+    public void setScore(int score)
+    {
+        Score = score;
     }
 
     public void AddScore(int score)

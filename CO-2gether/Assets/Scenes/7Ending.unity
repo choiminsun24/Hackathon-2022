@@ -364,9 +364,7 @@ MonoBehaviour:
   EndingPopup: {fileID: 19474074}
   EndButton: {fileID: 1865159414}
   ReplayButton: {fileID: 821971938}
-  Scorebag: {fileID: 1546819764}
-  S: {fileID: 1063927856}
-  score: 9
+  ShowScore: {fileID: 1546819766}
 --- !u!4 &508931326
 Transform:
   m_ObjectHideFlags: 0
@@ -677,8 +675,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729688798}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.1168, y: -1.6168, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.1167998, y: -1.6168, z: 0}
   m_LocalScale: {x: 0.5346456, y: 0.58318824, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -819,11 +817,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821971938}
   m_CullTransparentMesh: 1
---- !u!1 &1063927856 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5525959567104841209, guid: cf01025c13de9bd4a8bdfdabbef5cb5d, type: 3}
-  m_PrefabInstance: {fileID: 1353587326}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1081135978
 GameObject:
   m_ObjectHideFlags: 0
