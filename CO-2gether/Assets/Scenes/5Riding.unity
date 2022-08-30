@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 182158346}
   - component: {fileID: 182158345}
   - component: {fileID: 182158344}
+  - component: {fileID: 182158348}
   m_Layer: 5
   m_Name: ChoiceBox
   m_TagString: Untagged
@@ -389,6 +390,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &182158348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182158343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a305495678a04040bd31203c2bcbc31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &203037508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7502882382807419951, guid: c498012358dfd4e409b14c88b269387f, type: 3}
+  m_PrefabInstance: {fileID: 219230987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &219230987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,7 +736,7 @@ MonoBehaviour:
       \uBC84\uC2A4 \uD0C0\uC57C\uACA0\uB2E4"
     - "\uC6B4\uC804\uD558\uAE30\uB3C4 \uADC0\uCC2E\uACE0... \uB354 \uD658\uACBD\uC5D0\uB3C4
       \uB098\uC73C\uB2C8"
-  Text: {fileID: 0}
+  Next: {fileID: 203037508}
   ChoiceBox: {fileID: 182158343}
 --- !u!1001 &379671228
 PrefabInstance:
@@ -1761,7 +1779,7 @@ MonoBehaviour:
       \uD55C \uBC88 \uBD88\uB7EC\uBCFC\uAE4C?"
     - "\uB179\uC2AC\uC9C0 \uC54A\uC558\uB098 \uBAB0\uB77C."
     - "\uAE40\uC9D1\uC0AC!!"
-  Text: {fileID: 0}
+  Next: {fileID: 203037508}
   ChoiceBox: {fileID: 182158343}
 --- !u!1 &1879657667
 GameObject:
@@ -2049,7 +2067,7 @@ MonoBehaviour:
     sentences:
     - "\uC5ED\uC2DC \uC790\uCC28\uAC00 \uCD5C\uACE0\uC9C0"
     - "\uC624\uB79C\uB9CC\uC5D0 \uC6B4\uC804\uC774\uB098 \uD574\uBCFC\uAE4C?"
-  Text: {fileID: 0}
+  Next: {fileID: 203037508}
   ChoiceBox: {fileID: 182158343}
 --- !u!1 &2014416048
 GameObject:
