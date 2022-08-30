@@ -46,18 +46,21 @@ public class GameManager : MonoBehaviour
         stageStartTxt.SetActive(true);
         yield return new WaitForSeconds(1f);
         stageStartTxt.SetActive(false);
+        yield return new WaitForSeconds(0.7f);
+        clickBtn.SetActive(true);
         isPlaying = true;
     }
 
     IEnumerator Stage(GameObject text)
     {
+        clickBtn.SetActive(false);
         waterSize.transform.localScale = new Vector3((float)0.8, 0, objectScale.z);
         isPlaying = false;
         lifeTxt.text = life.ToString();
         removeBox.SetActive(true);
         yield return new WaitForSeconds(0.2f);
         text.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.2f);
         text.SetActive(false);
         removeBox.SetActive(false);
         StartCoroutine(StageStart());
@@ -79,7 +82,7 @@ public class GameManager : MonoBehaviour
             }
             else 
             {
-                Game(gameOverPanel);
+                StartCoroutine(Game(gameOverPanel));
             }
         }
     }
@@ -110,14 +113,16 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Game(gameOverPanel);
+                StartCoroutine(Game(gameOverPanel));
             }
         }
     
     }
 
-    public void Game(GameObject panel)
+    IEnumerator Game(GameObject panel)
     {
+        clickBtn.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
         isPlaying = false;
         panel.SetActive(true);
         removeBox.SetActive(true);
