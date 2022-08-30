@@ -539,6 +539,7 @@ GameObject:
   - component: {fileID: 563631860}
   - component: {fileID: 563631862}
   - component: {fileID: 563631863}
+  - component: {fileID: 563631864}
   m_Layer: 0
   m_Name: Trash_1
   m_TagString: paperTrash
@@ -660,6 +661,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &563631864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563631859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1497f34843dd549952dfb44fb1559d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGround: {fileID: 1717590966}
 --- !u!1 &570654110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +1760,7 @@ GameObject:
   - component: {fileID: 1549847378}
   - component: {fileID: 1549847377}
   - component: {fileID: 1549847379}
+  - component: {fileID: 1549847380}
   m_Layer: 0
   m_Name: Trash_0
   m_TagString: foodTrash
@@ -1846,6 +1861,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8, y: 2.4760299}
   m_EdgeRadius: 0
+--- !u!114 &1549847380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549847376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1497f34843dd549952dfb44fb1559d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGround: {fileID: 1717590966}
 --- !u!1 &1564603801
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1886,7 @@ GameObject:
   - component: {fileID: 1564603802}
   - component: {fileID: 1564603804}
   - component: {fileID: 1564603805}
+  - component: {fileID: 1564603806}
   m_Layer: 0
   m_Name: Trash_3
   m_TagString: plasticTrash
@@ -1979,6 +2008,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1564603806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564603801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1497f34843dd549952dfb44fb1559d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGround: {fileID: 1717590966}
 --- !u!1 &1584136155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,6 +2619,7 @@ GameObject:
   - component: {fileID: 1818035779}
   - component: {fileID: 1818035781}
   - component: {fileID: 1818035782}
+  - component: {fileID: 1818035783}
   m_Layer: 0
   m_Name: Trash_2
   m_TagString: GeneralTrash
@@ -2698,6 +2741,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1818035783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818035778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1497f34843dd549952dfb44fb1559d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backGround: {fileID: 1717590966}
 --- !u!1 &1819909653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2861,7 +2917,7 @@ GameObject:
   - component: {fileID: 1932027489}
   m_Layer: 8
   m_Name: tooth
-  m_TagString: Untagged
+  m_TagString: tooth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

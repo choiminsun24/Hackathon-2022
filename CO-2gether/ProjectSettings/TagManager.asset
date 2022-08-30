@@ -8,6 +8,11 @@ TagManager:
   - Plant
   - Water
   - RemoveBox
+  - paperTrash
+  - foodTrash
+  - plasticTrash
+  - GeneralTrash
+  - tooth
   layers:
   - Default
   - TransparentFX
